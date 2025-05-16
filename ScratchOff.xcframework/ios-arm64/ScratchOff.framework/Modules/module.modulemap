@@ -1,0 +1,6 @@
+framework module ScratchOff {
+  umbrella header "ScratchOff.h"
+  export *
+
+  module * { export * }
+}

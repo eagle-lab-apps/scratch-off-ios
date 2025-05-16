@@ -1,0 +1,23 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ScratchOff
+import Foundation
+import OSLog
+@_exported import ScratchOff
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ScratchableView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var percentageScratched: ((CoreFoundation.CGFloat) -> ())?
+  @_Concurrency.MainActor @preconcurrency public var didStartScratching: (() -> ())?
+  @_Concurrency.MainActor @preconcurrency public var didStopScratching: (() -> ())?
+  @_Concurrency.MainActor @preconcurrency convenience public init(overlayImage: UIKit.UIImage, hiddenImage: UIKit.UIImage, showTrail: Swift.Bool = false, trailColor: UIKit.UIColor = .black, updatePercentagesDuringScratching: Swift.Bool = false, prioritizeScratchingGestures: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency convenience public init(overlayColor: UIKit.UIColor, hiddenImage: UIKit.UIImage, showTrail: Swift.Bool = false, trailColor: UIKit.UIColor = .black, updatePercentagesDuringScratching: Swift.Bool = false, prioritizeScratchingGestures: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency public func changePointSize(to size: Swift.Int)
+  @_Concurrency.MainActor @preconcurrency public func updateTrailConfig(_ showTrail: Swift.Bool, _ selectedColor: UIKit.UIColor)
+  @_Concurrency.MainActor @preconcurrency public func resetScratchingProgress()
+  @_Concurrency.MainActor @preconcurrency public func showScratched()
+  @objc deinit
+}

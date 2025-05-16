@@ -1,0 +1,1122 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ScratchOff",
+    "printedName": "ScratchOff",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScratchOff",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScratchOff",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScratchOff",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScratchOff",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScratchableView",
+        "printedName": "ScratchableView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "percentageScratched",
+            "printedName": "percentageScratched",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CoreGraphics.CGFloat) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ScratchOff15ScratchableViewC19percentageScratchedy14CoreFoundation7CGFloatVcSgvp",
+            "mangledName": "$s10ScratchOff15ScratchableViewC19percentageScratchedy12CoreGraphics7CGFloatVcSgvp",
+            "moduleName": "ScratchOff",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((CoreGraphics.CGFloat) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ScratchOff15ScratchableViewC19percentageScratchedy14CoreFoundation7CGFloatVcSgvg",
+                "mangledName": "$s10ScratchOff15ScratchableViewC19percentageScratchedy12CoreGraphics7CGFloatVcSgvg",
+                "moduleName": "ScratchOff",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((CoreGraphics.CGFloat) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ScratchOff15ScratchableViewC19percentageScratchedy14CoreFoundation7CGFloatVcSgvs",
+                "mangledName": "$s10ScratchOff15ScratchableViewC19percentageScratchedy12CoreGraphics7CGFloatVcSgvs",
+                "moduleName": "ScratchOff",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ScratchOff15ScratchableViewC19percentageScratchedy14CoreFoundation7CGFloatVcSgvM",
+                "mangledName": "$s10ScratchOff15ScratchableViewC19percentageScratchedy12CoreGraphics7CGFloatVcSgvM",
+                "moduleName": "ScratchOff",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "didStartScratching",
+            "printedName": "didStartScratching",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ScratchOff15ScratchableViewC18didStartScratchingyycSgvp",
+            "mangledName": "$s10ScratchOff15ScratchableViewC18didStartScratchingyycSgvp",
+            "moduleName": "ScratchOff",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ScratchOff15ScratchableViewC18didStartScratchingyycSgvg",
+                "mangledName": "$s10ScratchOff15ScratchableViewC18didStartScratchingyycSgvg",
+                "moduleName": "ScratchOff",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ScratchOff15ScratchableViewC18didStartScratchingyycSgvs",
+                "mangledName": "$s10ScratchOff15ScratchableViewC18didStartScratchingyycSgvs",
+                "moduleName": "ScratchOff",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ScratchOff15ScratchableViewC18didStartScratchingyycSgvM",
+                "mangledName": "$s10ScratchOff15ScratchableViewC18didStartScratchingyycSgvM",
+                "moduleName": "ScratchOff",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "didStopScratching",
+            "printedName": "didStopScratching",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ScratchOff15ScratchableViewC17didStopScratchingyycSgvp",
+            "mangledName": "$s10ScratchOff15ScratchableViewC17didStopScratchingyycSgvp",
+            "moduleName": "ScratchOff",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ScratchOff15ScratchableViewC17didStopScratchingyycSgvg",
+                "mangledName": "$s10ScratchOff15ScratchableViewC17didStopScratchingyycSgvg",
+                "moduleName": "ScratchOff",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ScratchOff15ScratchableViewC17didStopScratchingyycSgvs",
+                "mangledName": "$s10ScratchOff15ScratchableViewC17didStopScratchingyycSgvs",
+                "moduleName": "ScratchOff",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ScratchOff15ScratchableViewC17didStopScratchingyycSgvM",
+                "mangledName": "$s10ScratchOff15ScratchableViewC17didStopScratchingyycSgvM",
+                "moduleName": "ScratchOff",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(overlayImage:hiddenImage:showTrail:trailColor:updatePercentagesDuringScratching:prioritizeScratchingGestures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScratchableView",
+                "printedName": "ScratchOff.ScratchableView",
+                "usr": "c:@M@ScratchOff@objc(cs)ScratchableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ScratchOff15ScratchableViewC12overlayImage06hiddenF09showTrail10trailColor33updatePercentagesDuringScratching010prioritizeO8GesturesACSo7UIImageC_AKSbSo7UIColorCS2btcfc",
+            "mangledName": "$s10ScratchOff15ScratchableViewC12overlayImage06hiddenF09showTrail10trailColor33updatePercentagesDuringScratching010prioritizeO8GesturesACSo7UIImageC_AKSbSo7UIColorCS2btcfc",
+            "moduleName": "ScratchOff",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(overlayColor:hiddenImage:showTrail:trailColor:updatePercentagesDuringScratching:prioritizeScratchingGestures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScratchableView",
+                "printedName": "ScratchOff.ScratchableView",
+                "usr": "c:@M@ScratchOff@objc(cs)ScratchableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ScratchOff15ScratchableViewC12overlayColor11hiddenImage9showTrail05trailF033updatePercentagesDuringScratching010prioritizeO8GesturesACSo7UIColorC_So7UIImageCSbAKS2btcfc",
+            "mangledName": "$s10ScratchOff15ScratchableViewC12overlayColor11hiddenImage9showTrail05trailF033updatePercentagesDuringScratching010prioritizeO8GesturesACSo7UIColorC_So7UIImageCSbAKS2btcfc",
+            "moduleName": "ScratchOff",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "changePointSize",
+            "printedName": "changePointSize(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ScratchOff15ScratchableViewC15changePointSize2toySi_tF",
+            "mangledName": "$s10ScratchOff15ScratchableViewC15changePointSize2toySi_tF",
+            "moduleName": "ScratchOff",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateTrailConfig",
+            "printedName": "updateTrailConfig(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ScratchOff15ScratchableViewC17updateTrailConfigyySb_So7UIColorCtF",
+            "mangledName": "$s10ScratchOff15ScratchableViewC17updateTrailConfigyySb_So7UIColorCtF",
+            "moduleName": "ScratchOff",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetScratchingProgress",
+            "printedName": "resetScratchingProgress()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ScratchOff15ScratchableViewC23resetScratchingProgressyyF",
+            "mangledName": "$s10ScratchOff15ScratchableViewC23resetScratchingProgressyyF",
+            "moduleName": "ScratchOff",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showScratched",
+            "printedName": "showScratched()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ScratchOff15ScratchableViewC13showScratchedyyF",
+            "mangledName": "$s10ScratchOff15ScratchableViewC13showScratchedyyF",
+            "moduleName": "ScratchOff",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScratchableView",
+                "printedName": "ScratchOff.ScratchableView",
+                "usr": "c:@M@ScratchOff@objc(cs)ScratchableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ScratchOff@objc(cs)ScratchableView(im)initWithFrame:",
+            "mangledName": "$s10ScratchOff15ScratchableViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "ScratchOff",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ScratchOff@objc(cs)ScratchableView",
+        "mangledName": "$s10ScratchOff15ScratchableViewC",
+        "moduleName": "ScratchOff",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScratchOff",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ScratchOff",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "ScratchOff"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 230,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 414,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 473,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 637,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 668,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 754,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4400,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4432,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4450,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4457,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4499,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4507,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4549,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4656,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 763,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 829,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1928,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2803,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4136,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4249,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4310,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5231,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5366,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5438,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6022,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6157,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6229,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 303,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
