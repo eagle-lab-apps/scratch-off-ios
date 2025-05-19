@@ -30,7 +30,13 @@ The framework includes callback handlers like `percentageScratched`, `didStartSc
 
 ## Installation
 
-**TBA**
+To add a package dependency to your Xcode project, select File > Add Packages and enter its repository URL. Or once you have your own Swift package, adding ScratchOff as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+
+```
+dependencies: [
+    .package(url: "https://github.com/eagle-lab-apps/scratch-off-ios", .upToNextMajor(from: "1.0.0"))
+]
+```
 
 ## Usage
 
