@@ -687,17 +687,24 @@
           {
             "kind": "Function",
             "name": "resetScratchingProgress",
-            "printedName": "resetScratchingProgress()",
+            "printedName": "resetScratchingProgress(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10ScratchOff15ScratchableViewC23resetScratchingProgressyyF",
-            "mangledName": "$s10ScratchOff15ScratchableViewC23resetScratchingProgressyyF",
+            "usr": "s:10ScratchOff15ScratchableViewC23resetScratchingProgressyySbF",
+            "mangledName": "$s10ScratchOff15ScratchableViewC23resetScratchingProgressyySbF",
             "moduleName": "ScratchOff",
             "declAttributes": [
               "Preconcurrency",
@@ -710,17 +717,24 @@
           {
             "kind": "Function",
             "name": "showScratched",
-            "printedName": "showScratched()",
+            "printedName": "showScratched(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10ScratchOff15ScratchableViewC13showScratchedyyF",
-            "mangledName": "$s10ScratchOff15ScratchableViewC13showScratchedyyF",
+            "usr": "s:10ScratchOff15ScratchableViewC13showScratchedyySbF",
+            "mangledName": "$s10ScratchOff15ScratchableViewC13showScratchedyySbF",
             "moduleName": "ScratchOff",
             "declAttributes": [
               "Preconcurrency",
@@ -902,217 +916,259 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 269,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "BooleanLiteral",
       "offset": 306,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "BooleanLiteral",
       "offset": 414,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "BooleanLiteral",
       "offset": 473,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 637,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "BooleanLiteral",
       "offset": 668,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "BooleanLiteral",
       "offset": 754,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 4400,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 4432,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 4450,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 4457,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "FloatLiteral",
       "offset": 4499,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 4507,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 4549,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
       "kind": "FloatLiteral",
       "offset": 4656,
       "length": 5,
       "value": "100.0"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4820,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/MaskPaintImageView\/MaskPaintImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5359,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
       "kind": "BooleanLiteral",
       "offset": 541,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
       "kind": "BooleanLiteral",
       "offset": 763,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
       "kind": "BooleanLiteral",
       "offset": 829,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2757,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableOverlayView\/ScratchableOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2925,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 1928,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 2803,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 4136,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 4249,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 4310,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 5231,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 5366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 5438,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 6022,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 6157,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
       "kind": "BooleanLiteral",
       "offset": 6229,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/Libs\/scratch-off-ios\/ScratchOffExampleApp\/ScratchOff\/Logger.swift",
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/ScratchableView\/ScratchableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9751,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nenik\/Documents\/workspace\/mobile\/Scratch off ios\/ScratchOffExampleApp\/ScratchOff\/Logger.swift",
       "kind": "BooleanLiteral",
       "offset": 303,
       "length": 5,
